@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5DC4701A97DA9500D8C549 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5DC46F1A97DA9500D8C549 /* GCDAsyncSocket.m */; };
+		DA5DC4721A97DC1800D8C549 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5DC4711A97DC1800D8C549 /* TCPConnection.swift */; };
+		DAB6BFAB1A8E59060083E0A7 /* VolumeControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6BFAA1A8E59060083E0A7 /* VolumeControlViewController.swift */; };
+		DAB6BFAD1A8E59290083E0A7 /* Source SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB6BFAC1A8E59290083E0A7 /* Source SelectionViewController.swift */; };
+		DABBEC1D1A92DF570034C466 /* AVSystemAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBEC1C1A92DF570034C466 /* AVSystemAccess.swift */; };
+		DAC6D0441A968DED00797EAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC6D0401A9683B400797EAC /* CFNetwork.framework */; };
+		DAC6D0451A968DFC00797EAC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC6D0421A9683C700797EAC /* Security.framework */; };
+		DAC72AA51A9E1E7400B32296 /* BCDDeviceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC72AA41A9E1E7400B32296 /* BCDDeviceControl.swift */; };
+		DADC4C161A8C08A20067DAA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC4C151A8C08A20067DAA6 /* AppDelegate.swift */; };
+		DADC4C181A8C08A20067DAA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC4C171A8C08A20067DAA6 /* ViewController.swift */; };
+		DADC4C1B1A8C08A20067DAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC4C191A8C08A20067DAA6 /* Main.storyboard */; };
+		DADC4C1D1A8C08A20067DAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC4C1C1A8C08A20067DAA6 /* Images.xcassets */; };
+		DADC4C201A8C08A20067DAA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADC4C1E1A8C08A20067DAA6 /* LaunchScreen.xib */; };
+		DADC4C2C1A8C08A20067DAA6 /* V_ControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC4C2B1A8C08A20067DAA6 /* V_ControlsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADC4C261A8C08A20067DAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC4C081A8C08A20067DAA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADC4C0F1A8C08A20067DAA6;
+			remoteInfo = "V Controls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA5DC46E1A97DA9500D8C549 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DA5DC46F1A97DA9500D8C549 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DA5DC4711A97DC1800D8C549 /* TCPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		DAB6BFAA1A8E59060083E0A7 /* VolumeControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolumeControlViewController.swift; path = ../VolumeControlViewController.swift; sourceTree = "<group>"; };
+		DAB6BFAC1A8E59290083E0A7 /* Source SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Source SelectionViewController.swift"; sourceTree = "<group>"; };
+		DABBEC1C1A92DF570034C466 /* AVSystemAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSystemAccess.swift; sourceTree = "<group>"; };
+		DAC6D0401A9683B400797EAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DAC6D0421A9683C700797EAC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DAC6D0461A968FEE00797EAC /* ObjC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAC72AA41A9E1E7400B32296 /* BCDDeviceControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCDDeviceControl.swift; sourceTree = "<group>"; };
+		DADC4C101A8C08A20067DAA6 /* V Controls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V Controls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC4C141A8C08A20067DAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC4C151A8C08A20067DAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADC4C171A8C08A20067DAA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADC4C1A1A8C08A20067DAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADC4C1C1A8C08A20067DAA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADC4C1F1A8C08A20067DAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DADC4C251A8C08A20067DAA6 /* V ControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "V ControlsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC4C2A1A8C08A20067DAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC4C2B1A8C08A20067DAA6 /* V_ControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_ControlsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADC4C0D1A8C08A20067DAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC6D0451A968DFC00797EAC /* Security.framework in Frameworks */,
+				DAC6D0441A968DED00797EAC /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC4C221A8C08A20067DAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADC4C071A8C08A20067DAA6 = {
+			isa = PBXGroup;
+			children = (
+				DAC6D0421A9683C700797EAC /* Security.framework */,
+				DAC6D0401A9683B400797EAC /* CFNetwork.framework */,
+				DADC4C121A8C08A20067DAA6 /* V Controls */,
+				DADC4C281A8C08A20067DAA6 /* V ControlsTests */,
+				DADC4C111A8C08A20067DAA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADC4C111A8C08A20067DAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADC4C101A8C08A20067DAA6 /* V Controls.app */,
+				DADC4C251A8C08A20067DAA6 /* V ControlsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADC4C121A8C08A20067DAA6 /* V Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DA5DC46E1A97DA9500D8C549 /* GCDAsyncSocket.h */,
+				DA5DC46F1A97DA9500D8C549 /* GCDAsyncSocket.m */,
+				DAC6D0461A968FEE00797EAC /* ObjC-Bridging-Header.h */,
+				DADC4C151A8C08A20067DAA6 /* AppDelegate.swift */,
+				DAB6BFAC1A8E59290083E0A7 /* Source SelectionViewController.swift */,
+				DAB6BFAA1A8E59060083E0A7 /* VolumeControlViewController.swift */,
+				DABBEC1C1A92DF570034C466 /* AVSystemAccess.swift */,
+				DAC72AA41A9E1E7400B32296 /* BCDDeviceControl.swift */,
+				DA5DC4711A97DC1800D8C549 /* TCPConnection.swift */,
+				DADC4C171A8C08A20067DAA6 /* ViewController.swift */,
+				DADC4C191A8C08A20067DAA6 /* Main.storyboard */,
+				DADC4C1C1A8C08A20067DAA6 /* Images.xcassets */,
+				DADC4C1E1A8C08A20067DAA6 /* LaunchScreen.xib */,
+				DADC4C131A8C08A20067DAA6 /* Supporting Files */,
+			);
+			path = "V Controls";
+			sourceTree = "<group>";
+		};
+		DADC4C131A8C08A20067DAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC4C141A8C08A20067DAA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADC4C281A8C08A20067DAA6 /* V ControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADC4C2B1A8C08A20067DAA6 /* V_ControlsTests.swift */,
+				DADC4C291A8C08A20067DAA6 /* Supporting Files */,
+			);
+			path = "V ControlsTests";
+			sourceTree = "<group>";
+		};
+		DADC4C291A8C08A20067DAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC4C2A1A8C08A20067DAA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADC4C0F1A8C08A20067DAA6 /* V Controls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC4C2F1A8C08A20067DAA6 /* Build configuration list for PBXNativeTarget "V Controls" */;
+			buildPhases = (
+				DADC4C0C1A8C08A20067DAA6 /* Sources */,
+				DADC4C0D1A8C08A20067DAA6 /* Frameworks */,
+				DADC4C0E1A8C08A20067DAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "V Controls";
+			productName = "V Controls";
+			productReference = DADC4C101A8C08A20067DAA6 /* V Controls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADC4C241A8C08A20067DAA6 /* V ControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC4C321A8C08A20067DAA6 /* Build configuration list for PBXNativeTarget "V ControlsTests" */;
+			buildPhases = (
+				DADC4C211A8C08A20067DAA6 /* Sources */,
+				DADC4C221A8C08A20067DAA6 /* Frameworks */,
+				DADC4C231A8C08A20067DAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADC4C271A8C08A20067DAA6 /* PBXTargetDependency */,
+			);
+			name = "V ControlsTests";
+			productName = "V ControlsTests";
+			productReference = DADC4C251A8C08A20067DAA6 /* V ControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADC4C081A8C08A20067DAA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "George Koepplinger";
+				TargetAttributes = {
+					DADC4C0F1A8C08A20067DAA6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P3P763W736;
+						LastSwiftMigration = 0820;
+					};
+					DADC4C241A8C08A20067DAA6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = DADC4C0F1A8C08A20067DAA6;
+					};
+				};
+			};
+			buildConfigurationList = DADC4C0B1A8C08A20067DAA6 /* Build configuration list for PBXProject "V Controls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADC4C071A8C08A20067DAA6;
+			productRefGroup = DADC4C111A8C08A20067DAA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADC4C0F1A8C08A20067DAA6 /* V Controls */,
+				DADC4C241A8C08A20067DAA6 /* V ControlsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADC4C0E1A8C08A20067DAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC4C1B1A8C08A20067DAA6 /* Main.storyboard in Resources */,
+				DADC4C201A8C08A20067DAA6 /* LaunchScreen.xib in Resources */,
+				DADC4C1D1A8C08A20067DAA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC4C231A8C08A20067DAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADC4C0C1A8C08A20067DAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5DC4701A97DA9500D8C549 /* GCDAsyncSocket.m in Sources */,
+				DA5DC4721A97DC1800D8C549 /* TCPConnection.swift in Sources */,
+				DAB6BFAB1A8E59060083E0A7 /* VolumeControlViewController.swift in Sources */,
+				DAC72AA51A9E1E7400B32296 /* BCDDeviceControl.swift in Sources */,
+				DABBEC1D1A92DF570034C466 /* AVSystemAccess.swift in Sources */,
+				DAB6BFAD1A8E59290083E0A7 /* Source SelectionViewController.swift in Sources */,
+				DADC4C181A8C08A20067DAA6 /* ViewController.swift in Sources */,
+				DADC4C161A8C08A20067DAA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC4C211A8C08A20067DAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC4C2C1A8C08A20067DAA6 /* V_ControlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADC4C271A8C08A20067DAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADC4C0F1A8C08A20067DAA6 /* V Controls */;
+			targetProxy = DADC4C261A8C08A20067DAA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADC4C191A8C08A20067DAA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC4C1A1A8C08A20067DAA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADC4C1E1A8C08A20067DAA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC4C1F1A8C08A20067DAA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADC4C2D1A8C08A20067DAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADC4C2E1A8C08A20067DAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADC4C301A8C08A20067DAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: gk@mobiletps.com (NS2GF2X6YE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "V Controls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/georgekoepplinger/Software/Home A/V Controls/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DADC4C311A8C08A20067DAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: gk@mobiletps.com (NS2GF2X6YE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "V Controls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/georgekoepplinger/Software/Home A/V Controls/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DADC4C331A8C08A20067DAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "V ControlsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/georgekoepplinger/Software/Home A/V Controls/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V Controls.app/V Controls";
+			};
+			name = Debug;
+		};
+		DADC4C341A8C08A20067DAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "V ControlsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/georgekoepplinger/Software/Home A/V Controls/ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V Controls.app/V Controls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADC4C0B1A8C08A20067DAA6 /* Build configuration list for PBXProject "V Controls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC4C2D1A8C08A20067DAA6 /* Debug */,
+				DADC4C2E1A8C08A20067DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC4C2F1A8C08A20067DAA6 /* Build configuration list for PBXNativeTarget "V Controls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC4C301A8C08A20067DAA6 /* Debug */,
+				DADC4C311A8C08A20067DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC4C321A8C08A20067DAA6 /* Build configuration list for PBXNativeTarget "V ControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC4C331A8C08A20067DAA6 /* Debug */,
+				DADC4C341A8C08A20067DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADC4C081A8C08A20067DAA6 /* Project object */;
+}
